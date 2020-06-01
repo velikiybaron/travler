@@ -1,0 +1,255 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:#ebebeb;
+}
+.top-form{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-top {
+    background:#ebebeb;
+}
+.menu-top p {
+    margin-top: 5px;
+}
+.search-box button {
+    border: none;
+    padding: 5px 10px;
+    background: transparent;
+    height: 34px;
+}
+.search-box input {
+    padding: 5px 10px;
+    border:none;
+    background: transparent;
+}
+.search-box{
+    background:white;
+    padding: 3px;
+    width: 235px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #c7c7c7;
+}
+.navbar-light .navbar-nav .drop-a {
+    color: #58159b;
+}
+.navbar-light .navbar-nav .drop-a:hover {
+    color: #58159b;
+}
+.drop-1-block{
+    display: none;
+}
+.drop-1-a{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: 10;
+}
+.drop-1-a:hover .drop-1-block{
+    display: block;
+    min-width: 200px;
+    position: absolute;
+    background:#58159b;
+}
+.drop-1-a a {
+    color: white;
+    margin-right: 60px;
+}
+.drop-1-block ul li {
+    padding: 5px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #701dbb;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 7px 0px  black;
+    z-index: 3;
+    border-bottom:12px solid #701dbb;
+    padding: 32px 34px;
+    margin-top: -12px;
+    position: relative;
+}
+.nav-pills .nav-link {
+    width: 170px;
+    border-radius:0;
+    z-index: 2;
+    padding: 18px 13px;
+    border-bottom:12px solid #8038c2;
+    background:#fcfcfc;
+    border-right: 1px solid #d4d4d4;
+    color:#707070;
+    position: relative;
+    font-size: 17px;
+}
+.menu-bottom{
+    margin-top: 40px;
+}
+.menu-bottom ul {
+    display: flex;
+    justify-content: center;
+}
+/* section1 */
+.sec1-text h2{
+    color: white;
+}
+.sec1-text p {
+    color: #a161db;
+}
+.sec1-img img {
+    width: 100%;
+}
+.section{
+    background:#2d2d2d;
+}
+.line{
+    width: 140px;
+    background:#6d6d6d;
+    height: 3px;
+    margin-top: 30px;
+}
+.sec1-text{
+    margin-top: 50px;
+}
+.sec1-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec1-text1 {
+    color: white;
+}
+/* section2 */
+.section2{
+    padding: 50px 0 0 0;
+    background:#222222;
+}
+/* section3 */
+.section3{
+    background: #ebebeb;
+    padding: 50px;
+}
+.sec3-text {
+    color: #717171;
+}
+.line1{
+    background:#dedede;
+    width: 40%;
+    height: 3px;
+    margin-top: 23px;
+}
+
+.sec3-person2{
+    position: relative;
+    transform: rotate(-3deg);
+}
+.image-twit img{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 182px;
+}
+.sec3-person-text{
+    color: #7b7b7b;
+    margin-top: 30px;
+}
+.img-person img {
+    width: 100%;
+}
+.sec3-award{
+    padding: 50px;
+    background: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.sec3-aw{
+    color: #6017a3;
+}
+.sec3-aw2{
+    color: #949494;
+}
+/* footer */
+footer{
+    background-color:#373737;
+    padding: 50px;
+}
+footer p {
+    color: white;
+}
+footer ul li a {
+    margin-left: 30px;
+    color: white;
+}
+footer ul li a:hover {
+    color: white;
+    border-bottom: 3px solid #914dcf;
+    text-decoration: none;
+    list-style: none;
+}
+.creator{
+    color: white;
+}
+
+
+
+
+/* media */
+@media(max-width:989px){
+    .sec1-text1 {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:369px){
+    .nav-pills .nav-link {
+        width: 90px;
+        border-radius: 0;
+        z-index: 2;
+        padding: 6px -4px;
+        border-bottom: 12px solid #8038c2;
+        background: #fcfcfc;
+        border-right: 1px solid #d4d4d4;
+        color: #707070;
+        position: relative;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: -4px;
+        text-align: center;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #701dbb;
+        background-color: #ffffff;
+        box-shadow: -1px 1px 16px 0px black;
+        z-index: 4;
+        border-bottom: 12px solid #701dbb;
+        padding: 15px 20px;
+        margin-top: 4px;
+        margin-left: 0px;
+        position: relative;
+        text-align: center;
+    }
+    
+    iframe{
+        height: 190px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+        justify-content: end;
+    }
+    .navbar-brand img {
+        width: 176px;
+    }
+}
+@media(max-width:767px){
+    .line{
+        display: none;
+    }
+    .sec1-logo img {
+        width: 60px;
+        height: 50px;
+    }
+}
